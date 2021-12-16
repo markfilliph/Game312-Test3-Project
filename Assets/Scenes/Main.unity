@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -322,10 +322,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 829123265}
   m_Enabled: 1
   m_EditorHideFlags: 0
+ Cameron-Branch
   m_Script: {fileID: 11500000, guid: 513204f130f8f2e41b48d0d45d3c4be6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
+
+  m_Script: {fileID: 11500000, guid: 66d1b8a8b4242f74eb54fa9dfbb8f157, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+ main
 --- !u!114 &829123271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,10 +341,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 829123265}
   m_Enabled: 1
   m_EditorHideFlags: 0
+ Cameron-Branch
   m_Script: {fileID: 11500000, guid: d4b180cb8b085074ca1f238f76d2547d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   turnSpeed: 30
+
+  m_Script: {fileID: 11500000, guid: 053661ffe423f4b4388cb2233c2424ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+ main
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
