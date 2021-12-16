@@ -11,5 +11,8 @@ public class BoxMover : MonoBehaviour
     {
         var movement = Input.GetAxis("Horizontal");
         transform.position += Vector3.right * movement * speed;
+
+        var vertical = Input.GetAxis("Vertical");
+        transform.position += Vector3.up * vertical * speed;
     }
 }
